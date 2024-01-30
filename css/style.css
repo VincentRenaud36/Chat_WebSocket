@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #111111;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
+}
+
+#app{
+    width: 800px;
+    max-height: 600px;
+    margin: auto;
+    margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+#messagebox{
+    max-height: 500px;
+    overflow: auto;
+    background-color: #EEEEEE;
+    padding: 15px 10px 5px 10px;
+    border-radius: 10px 10px 0px 0px;
+    overflow-x: hidden;
+}
+  
+.sendbox{
+    display: flex;
+    background-color: #EEEEEE;
+    padding: 10px;
+    border-top: 1px solid #3A3A3A;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#namePlaceholder{
+    padding-left: 15px;
+    font-variant-caps: small-caps;
+}
+
+form{
+    display: flex;  
+}
+
+form input{
+    border: none;
+    border-bottom: 1px solid #3A3A3A;
+    outline: none;
+    margin: 0 30px;
+    padding-right: 320px;
+    background: #EEEEEE;
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+}
+
+button{
+    font-size: large;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: #222222;
+    border: 2px solid #222222;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+button:hover{
+    border: 2px solid #313131;
+    background-color: #313131;
+    color: #EEEEEE;
+    transition: 0.1s;
+}
